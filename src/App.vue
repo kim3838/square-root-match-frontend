@@ -56,7 +56,7 @@ function getMatches(){
 
         <div class="space-y-2">
             <form @submit.prevent="getMatches" class="flex gap-1">
-                <input type="number" class="input input-bordered w-full max-w-xs" v-model="input" />
+                <input required type="number" class="input input-bordered w-full max-w-xs" v-model="input" />
 
                 <input type="submit" value="List Matches" class="btn">
             </form>
